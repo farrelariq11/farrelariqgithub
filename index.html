@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RellFresh</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> RellFresh </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="login.php" method="POST" class="search-form">
+        <input type="search" id=""search-box" placeholder="Cari disini">
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/wortel.jpg" alt="">
+          <div class="content">
+            <h3>wortel</h3>
+            <span class="Harga">Rp.3000/</span>
+            <span class="Jumlah">Total: 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/kentang.webp" alt="">
+          <div class="content">
+            <h3>Kentang</h3>
+            <span class="Harga">Rp.4000/</span>
+            <span class="Jumlah">Total: 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/telur.jpg" alt="">
+          <div class="content">
+            <h3>telur</h3>
+            <span class="Harga">Rp.2500/</span>
+            <span class="Jumlah">Total: 1</span>
+          </div>
+        </div>
+        <div class="total"> total :Rp.9500/-</div>
+          <a href="#" class="btn">checkout</a>
+        </div>
+      </div>
+    </header>
+
+    <section class ="home" id="home">
+      <div class="content">
+        <h3>fresh and <span>Delicious</span> Produk Asli Lokal</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro, at sint sapiente assumenda perferendis nihil provident in earum necessitatibus corrupti enim 
+          illum debitis molestiae a excepturi. Culpa, placeat deserunt!
+        </p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
